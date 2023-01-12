@@ -1,0 +1,30 @@
+.head {
+  background-color: darkgrey;
+  height: 5vh;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.745);
+}
+nav a:hover {
+  color: aquamarine;
+  transition: 0.5s;
+}
+nav ul li {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
